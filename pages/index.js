@@ -118,32 +118,27 @@ export default function Home() {
               <h4 className="text-grey py-1 ">Illutrator</h4>
             </div>
             <div className="shadow-lg  p-10 rounded-xl my-10 flex flex-col items-center dark:bg-white">
-              <Image src={design} height={100} width={100} />
+              <Image src={code} height={100} width={100} />
               <h3 className="pt-8 pb-2 text-lg font-medium ">
-                Beautiful Designs
+                Verstaile Coding
               </h3>
-              <p className="py-2  ">
-                Creating elegant designs suitable for you
-              </p>
-              <p className=" py-4 text-teal-500">
-                Designs using tools such as :
-              </p>
-              <h4 className="text-grey py-1 ">Figma</h4>
-              <h4 className="text-grey py-1 ">Illutrator</h4>
+              <p className="py-2  ">Creating webpages that consists:</p>
+              <p className=" py-4 text-teal-500">Languages such as:</p>
+              <h4 className="text-grey py-1 ">HTML</h4>
+              <h4 className="text-grey py-1 ">Css/Tailwind</h4>
+              <h4 className="text-grey py-1 ">Javascript</h4>
+              <h4 className="text-grey py-1 ">React</h4>
+              <h4 className="text-grey py-1 ">Redux</h4>
             </div>
             <div className="shadow-lg  p-10 rounded-xl my-10 flex flex-col items-center dark:bg-white">
-              <Image src={design} height={100} width={100} />
-              <h3 className="pt-8 pb-2 text-lg font-medium ">
-                Beautiful Designs
-              </h3>
-              <p className="py-2  ">
-                Creating elegant designs suitable for you
-              </p>
-              <p className=" py-4 text-teal-500">
+              <Image src={consulting} height={100} width={100} />
+              <h3 className="pt-8 pb-2 text-lg font-medium ">Consultation</h3>
+              <p className="py-2  ">Cosultation with team members</p>
+              {/* <p className=" py-4 text-teal-500">
                 Designs using tools such as :
               </p>
               <h4 className="text-grey py-1 ">Figma</h4>
-              <h4 className="text-grey py-1 ">Illutrator</h4>
+              <h4 className="text-grey py-1 ">Illutrator</h4> */}
             </div>
           </div>
         </section>
@@ -154,25 +149,51 @@ export default function Home() {
             </h3>
           </div>
           <div className=" flex flex-col py-10 gap-10 lg:flex-row lg:flex-wrap">
-            <div className=" basis-1/3 flex-1">
-              <Image
-                src={web1}
-                className=" rounded-lg object-cover "
-                width={"100%"}
-                layout="responsive"
-                height={"100%"}
-              />
+            <div className=" basis-1/3 flex-1 hover:scale-105 transition-all">
+              <a href="https://anujecommerce.netlify.app/">
+                <Image
+                  src={web1}
+                  className=" rounded-lg object-cover "
+                  width={"100%"}
+                  layout="responsive"
+                  height={"100%"}
+                />
+              </a>
             </div>
-            <div className=" basis-1/3 flex-1">
-              <Image
-                src={web2}
-                className=" rounded-lg object-cover "
-                width={"100%"}
-                layout="responsive"
-                height={"100%"}
-              />
+            <div className=" basis-1/3 flex-1 hover:scale-105 transition-all">
+              <a href="https://anujecommerce.netlify.app/">
+                <Image
+                  src={web2}
+                  className=" rounded-lg object-cover "
+                  width={"100%"}
+                  layout="responsive"
+                  height={"100%"}
+                />
+              </a>
             </div>
-            <div className=" basis-1/3 flex-1">
+            <div className=" basis-1/3 flex-1 hover:scale-105 transition-all">
+              <a href="https://anujyoutube.netlify.app/">
+                <Image
+                  src={web5}
+                  className=" rounded-lg object-cover "
+                  width={"100%"}
+                  layout="responsive"
+                  height={"100%"}
+                />
+              </a>
+            </div>
+            <div className=" basis-1/3 flex-1 hover:scale-105 transition-all">
+              <a href="https://willowy-babka-67298c.netlify.app/">
+                <Image
+                  src={web6}
+                  className=" rounded-lg object-cover "
+                  width={"100%"}
+                  layout="responsive"
+                  height={"100%"}
+                />
+              </a>
+            </div>
+            <div className=" basis-1/3 flex-1 hover:scale-105 transition-all">
               <Image
                 src={web3}
                 className=" rounded-lg object-cover "
@@ -181,27 +202,9 @@ export default function Home() {
                 height={"100%"}
               />
             </div>
-            <div className=" basis-1/3 flex-1">
+            <div className=" basis-1/3 flex-1 hover:scale-105 transition-all">
               <Image
                 src={web4}
-                className=" rounded-lg object-cover "
-                width={"100%"}
-                layout="responsive"
-                height={"100%"}
-              />
-            </div>
-            <div className=" basis-1/3 flex-1">
-              <Image
-                src={web5}
-                className=" rounded-lg object-cover "
-                width={"100%"}
-                layout="responsive"
-                height={"100%"}
-              />
-            </div>
-            <div className=" basis-1/3 flex-1">
-              <Image
-                src={web6}
                 className=" rounded-lg object-cover "
                 width={"100%"}
                 layout="responsive"
